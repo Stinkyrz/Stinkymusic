@@ -147,7 +147,7 @@ Kembalikan kembali ke Akun Pengguna Dari Hak Admin.
     username = message.from_user.first_name
     checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
     if await is_on_off(1):
-        LOG_ID = "-100156899495"
+        LOG_ID = "-1001625619901"
         if int(chat_id) != int(LOG_ID):
             return await message.reply_text(
                 f"Bot sedang dalam Pemeliharaan. Maaf untuk ketidaknyamanannya!"
@@ -280,7 +280,7 @@ Unban terlebih dahulu untuk menggunakan
             else file_name,
         )
         title = "Audio Yang Dipilih Dari Telegram"
-        link = "https://t.me/NastyProject"
+        link = "https://t.me/Stinkyrz"
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
